@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { productContainer } from '../App.jsx'
-import icon from '../assets/icon.png' 
+import icon from '../assets/Icon.png' 
 
 const Navbar = () => {
 
