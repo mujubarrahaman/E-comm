@@ -9,7 +9,7 @@
         "display":6.7,
         "mrp":22999,
         "price":20200,
-        "image":"src/assets/prd1.jpg"
+        "image":"/assets/prd1.jpg"
 
     },
     {
@@ -22,7 +22,7 @@
         "display":6.2,
         "mrp":15999,
         "price":11200,
-        "image":"src/assets/prd2.png"
+        "image":"/assets/prd2.png"
 
     },
     {
@@ -35,7 +35,7 @@
         "display":6.2,
         "mrp":9999,
         "price":6500,
-        "image":"src/assets/prd2.png"
+        "image":"/assets/prd3.png"
 
     },
     {
@@ -48,7 +48,7 @@
         "display":6.1,
         "mrp":61400,
         "price":69900,
-        "image":"src/assets/prd2.png"
+        "image":"/assets/prd4.png"
 
     },
     {
@@ -61,7 +61,7 @@
         "display":6.1,
         "mrp":61400,
         "price":69900,
-        "image":"src/assets/prd2.png"
+        "image":"/assets/prd5.png"
 
     },
     {
@@ -74,7 +74,7 @@
         "display":6.3,
         "mrp":9999,
         "price":6500,
-        "image":"src/assets/prd2.png"
+        "image":"/assets/prd6.png"
 
     }
     
