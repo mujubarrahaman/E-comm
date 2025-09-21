@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Banner container Notes !! */
+  .banner{
+    width: full;
+    height: 300px;
+    background-color: rgb(89, 179, 239);
+    position: relative;
+  }
+  .banner_text{
+    color: white;
+    padding: 80px;
+  }
+  .banner_text h1{
+    font-size: large;
+    font-weight: bold;
+  }
+  .banner_text button{
+    margin-top: 12px;
+    font-size: small;
+    cursor: pointer;
+  }
+  .banner_text hr{
+    width: 20px;
+    line-height: 2px;
+  }
+
+  .banner img{
+    width: 400px;
+    height: 200px;
+    transform: scaleX(-1);
+    margin-left: 60%;
+    position: absolute;
+    bottom: 0;
+
+  }
+
+
+  /* Footer container Notes */
+
+  .footer_container{
+    width: full;
+    height: 550px;
+    background-color: rgb(166, 209, 238);
+  }
+  .footer_one{
+    width: 350px;
+    height: 200px;
+  }
+  .footer_one p{
+    margin-top: 10px;
+    text-align: start;
+  }
+  .footer_two p{
+    text-align: start;
+  }
+  .footer_container hr{
+    width: 1000px;
+    color: white;
+    margin: auto;
+  }
+
+
+/* 
+  Star Rating  */
+
+
+  .active {
+    color: yellow;
+  }
+
+  .inActive{
+    color: gray;
+  }
+
+
+
+  /* Shoe Container */
+
+  .shoe_container{
+    width: 300px;
+    height: 370px;
+    background: transparent;
+    border: 1px solid black;
+  }
+
+
+  /* sort */
+
+  .sort{
+    margin-top: 10px;
+    background-color: rgb(229, 227, 227);
+    width: full;
+    height: 70px;
+    border-radius: 10px;
+  }
+
+  .sortBy{
+    width: 90px;
+  }
+
+    /*  Responsive  */
+
+  @media (max-width: 768px) {
+    .sidebar{
+      display: none;
+    }
+    .banner{
+      display: none;
+    }
+    .navbar_container{
+      display: none;
+    }
+    /* .navbar{
+      
+    }
+    .navbar_h1{
+      width: 300px;
+      background-color: red;
+    } */
+     .nav_res img{
+      size: 30px;
+     }
+     .nav_res h1{
+      
+      font-size: 18px;
+     }
+     .shoe_container{
+      width: 200px;
+      height: 370px;
+      font-size: 18px;
+      
+      
+    }
+    .shoe_container_two p{
+      font-size: 12px;
+    
+    }
+   .full_content{
+    margin-top: 10px;
+   }
+   .full_content button{
+    font-size: 12px;
+    width: 100px;
+
+    padding: 5px;
+
+   }
+   .product_card_res{
+    width: 100%;
+   display: flex;
+   overflow-x: auto;    
+   overflow-y: hidden;     
+   scroll-behavior: smooth; 
+   }
+   .product_card_res::-webkit-scrollbar {
+    display: none;             /* Chrome, Safari */
+  }
+   .footer_container{
+    font-size: 12px;
+   }
+   .footer_container h1{
+    font-size: 16px;
+   }
+   .hidden_footer{
+    display: none;
+   }
+   .product_container_res{
+    width: 500px;
+   }
+   .shoe_container h3{
+    font-size: 12px;
+   }
+
+  }

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Air Max 270 React",
+        "brand": "Nike" ,
+        "color": "grey",
+        "ram":"popular",
+        "storage":256,
+        "display":6.7,
+        "mrp":22999,
+        "price":20200,
+        "image":"/assets/prd1.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Nike Air Max 270 React",
+        "brand": "Addidas" ,
+        "color": "grey",
+        "ram":"price",
+        "storage":128,
+        "display":6.2,
+        "mrp":15999,
+        "price":11200,
+        "image":"/assets/prd2.png"
+
+    },
+    {
+        "id": 3,
+        "name": "Nike Air Max 270 React",
+        "brand": "Airmax" ,
+        "color": "green",
+        "ram":"popular",
+        "storage":128,
+        "display":6.2,
+        "mrp":9999,
+        "price":6500,
+        "image":"/assets/prd3.png"
+
+    },
+    {
+        "id": 4,
+        "name": "Nike Air Max 270 React",
+        "brand": "Vans" ,
+        "color": "black",
+        "ram":"price",
+        "storage":128,
+        "display":6.1,
+        "mrp":61400,
+        "price":69900,
+        "image":"/assets/prd4.png"
+
+    },
+    {
+        "id": 5,
+        "name": "Nike Air Max 270 React",
+        "brand": "All Stars" ,
+        "color": "Green",
+        "ram":"popular",
+        "storage":128,
+        "display":6.1,
+        "mrp":61400,
+        "price":69900,
+        "image":"/assets/prd5.png"
+
+    },
+    {
+        "id": 6,
+        "name": "Nike Air Max 270 React",
+        "brand": "One Plus" ,
+        "color": "Blue",
+        "ram":"price",
+        "storage":128,
+        "display":6.3,
+        "mrp":9999,
+        "price":6500,
+        "image":"/assets/prd6.png"
+
+    }
+    
+
+]
