@@ -1,12 +1,12 @@
 import { useState, useContext, createContext } from 'react'
 import './App.css'
 import productsData from "./product.json"
-import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
-import ProductCart from './components/ProductCart'
-import CartSidebar from './components/CartSidebar'
-import Banner from './components/Banner'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar.jsx'
+import Sidebar from './components/Sidebar.jsx'
+import ProductCart from './components/ProductCart.jsx'
+import CartSidebar from './components/CartSidebar.jsx'
+import Banner from './components/Banner.jsx'
+import Footer from './components/Footer.jsx'
 
 
 export const productContainer = createContext();
