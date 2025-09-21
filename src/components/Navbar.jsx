@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { productContainer } from '../App'
-import icon from '../assets/icon.png'
+import { productContainer } from '../App.jsx'
+import icon from '../assets/icon.png' 
 
 const Navbar = () => {
 
@@ -15,14 +15,10 @@ const Navbar = () => {
 
       <div className='flex justify-between items-center  mx-auto navbar ' >
         <div className='nav_res flex items-center gap-2 pl-2 navbar_h1' style={{width:"30%"}}>
-        <img src={icon} alt="" />
+        <img src="/icon.png" alt="" />
         <h1 className='text-black text-2xl font-bold '>E-Comm</h1>
         </div>
-        {/* <input 
-        type="text" 
-        value={search}
-        onChange={(e)=> setSearch(e.target.value)}
-        placeholder='🔍Search for smartphone, brands, colors..'  className='p-3 text-base rounded-md bg-white w-1/2 focus:outline-none'/> */}
+        
         <div className='navbar_container w-8/12 ' style={{width:"80%"}}>
           <ul className='flex gap-32 justify-center  text-sm'>
             <li>

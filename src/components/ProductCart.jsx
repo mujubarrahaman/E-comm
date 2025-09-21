@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import { productContainer } from '../App'
+import { productContainer } from '../App.jsx'
 import productsData from "../product.json"
-import Star from './Star'
+import Star from './Star.jsx'
 
 
 const ProductCart = ({product}) => {
