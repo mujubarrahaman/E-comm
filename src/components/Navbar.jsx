@@ -15,7 +15,7 @@ const Navbar = () => {
 
       <div className='flex justify-between items-center  mx-auto navbar ' >
         <div className='nav_res flex items-center gap-2 pl-2 navbar_h1' style={{width:"30%"}}>
-        <img src="/icon.png" alt="" />
+        <img src={icon} alt="" />
         <h1 className='text-black text-2xl font-bold '>E-Comm</h1>
         </div>
         
